@@ -1,7 +1,7 @@
 {
   "name": "@krosoft/tooling-prettier",
   "version": "0.0.1",
-  "description": "Shared Prettier configuration",
+  "description": "Krosoft shared Prettier configuration",
   "type": "module",
   "exports": {
     ".": "./index.js"
