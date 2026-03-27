@@ -6,6 +6,8 @@ on:
 
 jobs:
   publish:
+    permissions:
+      id-token: write
     uses: krosoft-dev/Krosoft.DevOps.GitHub/.github/workflows/npm-publish.yml@main
     with:
       run-build: false
