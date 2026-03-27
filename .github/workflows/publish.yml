@@ -10,4 +10,3 @@ jobs:
     with:
       run-build: false
       run-tests: false
-    secrets: inherit
