@@ -1,0 +1,18 @@
+{
+  "name": "@krosoft/tooling-prettier",
+  "version": "0.0.1",
+  "description": "Shared Prettier configuration",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

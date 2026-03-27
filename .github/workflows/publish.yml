@@ -1,0 +1,13 @@
+name: Publish
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    uses: krosoft-dev/Krosoft.DevOps.GitHub/.github/workflows/npm-publish.yml@main
+    with:
+      run-build: false
+      run-tests: false
+    secrets: inherit
