@@ -12,6 +12,10 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krosoft-dev/krosoft-tooling-prettier.git"
+  },
   "publishConfig": {
     "access": "public"
   }
