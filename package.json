@@ -10,7 +10,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "prettier": "^3.9.10"
+    "prettier": "^3.10.0"
   },
   "repository": {
     "type": "git",
